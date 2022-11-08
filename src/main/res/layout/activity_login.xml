@@ -78,8 +78,8 @@
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:textColor="@color/white" />-->
+<com.google.android.material.textfield.TextInputEditText
 
-        <EditText
             android:id="@+id/editTextNumberPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -96,12 +96,14 @@
             android:background="@drawable/style_bord"
             android:ems="10"
             android:hint="@string/contrase_a"
+            app:endIconMode="password_toggle"
             android:inputType="numberPassword"
             android:minHeight="48dp"
             android:textColor="@color/white"
             app:errorEnabled="true"
             app:errorIconDrawable="@null"
             app:passwordToggleEnabled="true" />
+
 
         <Button
             android:id="@+id/bini"
@@ -151,7 +153,8 @@
 
 
 
-    </RelativeLayout>
+</RelativeLayout>
 
 
 </RelativeLayout>
+
