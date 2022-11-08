@@ -8,5 +8,10 @@
     <string name="usuario">Usuario</string>
     <string name="recordarcontrase_a"><u>Recordar Contraseña</u></string>
     <string name="todo1">TODO</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Password</string>
+    <string name="confirmarpass">Confirmarpassword</string>
+    <string name="genero">Genero</string>
+    <string name="fecha">Fecha de Nacimiento</string>
 
 </resources>
