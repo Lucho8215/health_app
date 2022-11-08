@@ -25,4 +25,9 @@
         android:name="com.example.healthapps.view.ui.activities.recuperarActivity"
         android:label="activity_recuperar"
         tools:layout="@layout/activity_recuperar" />
+    <activity
+        android:id="@+id/fragmentActivity"
+        android:name="com.example.healthapps.view.ui.activities.fragmentActivity"
+        android:label="activity_fragment"
+        tools:layout="@layout/activity_fragment" />
 </navigation>

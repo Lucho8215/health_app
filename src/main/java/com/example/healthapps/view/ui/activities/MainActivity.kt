@@ -19,6 +19,7 @@ import android.content.Context
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var handler: Handler
+
     companion object {
         const val MY_CHANNEL_ID = "myChannel"
     }
@@ -28,8 +29,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         binding.animationView.setAnimation(R.raw.logo1)
         binding.animationView.playAnimation()
+
         handler= Handler(Looper.myLooper()!!)
         handler.postDelayed(
+
+
             {
 
 
@@ -39,7 +43,9 @@ class MainActivity : AppCompatActivity() {
 
             }, 4000)
 
+    /*    binding.bottomNavigationView.setOnintenSelectedListner(item -> {
 
+        })*/
         }
 
     }

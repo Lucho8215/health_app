@@ -29,7 +29,7 @@ class loginActivity : AppCompatActivity() {
         // 3_. programamos que cuando yo de click en dicho botton alga algo
 
         iniciobutton.setOnClickListener{
-            startActivity(Intent( this, preActivity::class.java))
+            startActivity(Intent( this, ragmentActivity::class.java))
         }
 
         registrobutton.setOnClickListener{

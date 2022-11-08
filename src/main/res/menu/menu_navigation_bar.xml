@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+       android:id="@+id/home"
+       android:title="Home"
+       android:icon="@drawable/ic_home"/>
+
+    <item android:title="Especialistas"
+        android:icon="@drawable/medico"
+        android:id="@+id/medicos"/>
+    <item android:title="Servicios"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/Servicios"/>
+    <item android:title="Localización"
+        android:icon="@drawable/ic_location"
+        android:id="@+id/Localización"/>
+    <item android:title="Salida"
+        android:icon="@drawable/imagen7"
+        android:id="@+id/Salida"/>
+</menu>
