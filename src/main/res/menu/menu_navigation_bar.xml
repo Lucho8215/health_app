@@ -6,17 +6,18 @@
        android:id="@+id/home"
        android:title="Home"
        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/Localización"
+    android:title="Localización"
+    android:icon="@drawable/ic_location"/>
+    <item android:title="Servicios"
+        android:icon="@drawable/ic_manocorazon"
+        android:id="@+id/Servicios"/>
 
     <item android:title="Especialistas"
         android:icon="@drawable/medico"
         android:id="@+id/medicos"/>
-    <item android:title="Servicios"
-        android:icon="@drawable/ic_home"
-        android:id="@+id/Servicios"/>
-    <item android:title="Localización"
-        android:icon="@drawable/ic_location"
-        android:id="@+id/Localización"/>
     <item android:title="Salida"
-        android:icon="@drawable/imagen7"
+        android:icon="@drawable/ic_launcher_background"
         android:id="@+id/Salida"/>
 </menu>

@@ -13,5 +13,10 @@
     <string name="confirmarpass">Confirmarpassword</string>
     <string name="genero">Genero</string>
     <string name="fecha">Fecha de Nacimiento</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="password">ingrese la contreseña</string>
+    <string name="email_error">Email no valido</string>
+    <string name="password_error">password no valido</string>
+
 
 </resources>
